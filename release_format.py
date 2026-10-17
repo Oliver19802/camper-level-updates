@@ -32,6 +32,7 @@ def verify(m,pem,target,edition,now=None,minimum_sequence=0):
     return m
 
 def image(m,data):
+    payload(m)
     if len(data)!=m['size'] or hashlib.sha256(data).hexdigest()!=m['sha256']:raise ValueError('Firmware-Prüfsumme')
     marker=f"CAMPER_LEVEL_IMAGE_V1:{m['target']}:{m['edition']}:{m['version']}".encode()
     if data[0]!=0xe9 or int.from_bytes(data[12:14],'little')!=({'atoms3r':9,'xiao-esp32c3':5}[m['target']]) or marker not in data:raise ValueError('Firmwareinhalt passt nicht')
