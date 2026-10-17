@@ -1,0 +1,9 @@
+local/
+*.dpapi
+*.keystore
+*.jks
+*private*.bin
+*.bin
+*.pem
+!release-public-key.pem
+__pycache__/
