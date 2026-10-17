@@ -1,6 +1,6 @@
 # Camper Level Updates
 
-Öffentlicher Updatekanal für Camper Level. **Noch keine neue Firmware freigegeben.**
+Öffentlicher Updatekanal für Camper Level. **AtomS3R official 1.6.0 ist veröffentlicht.**
 
 Firmwaredateien werden als GitHub Release bereitgestellt; die Apps prüfen den
 signierten Katalog unter `https://oliver19802.github.io/camper-level-updates/`.
@@ -9,8 +9,7 @@ Der Sensor verlangt zusätzlich seinen individuellen lokalen Update-Schlüssel.
 
 ## Status
 
-Der Kanal ist vorbereitet. Eine Version wird erst nach Kompilierung und Test am
-echten Sensor veröffentlicht. Ohne Katalog oder bei abgelaufener Signatur darf
+Die Firmware und der signierte Katalog für AtomS3R official 1.6.0 sind verfügbar. Ohne Katalog oder bei abgelaufener Signatur darf
 kein Update angeboten werden. Kein automatisches Installieren.
 
 ## Veröffentlichung
@@ -42,3 +41,5 @@ Geräte-Update-Schlüssel werden niemals an GitHub gesendet.
 Dieser kleine Updatekanal ist eine eigene signierte Implementierung, keine
 vollständige TUF-Implementierung. Schlüsselrotation braucht eine bewusst
 geprüfte neue Vertrauenskonfiguration.
+
+
