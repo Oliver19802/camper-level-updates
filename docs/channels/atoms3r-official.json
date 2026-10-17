@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "target": "atoms3r",
+  "edition": "official",
+  "version": "1.6.0",
+  "size": 1496384,
+  "sha256": "d5f2d0463ae72612b645d7be265e0c272256cf9af4bd3da3762d1a49eec860b1",
+  "sequence": 1792243857,
+  "expires": 1800019857,
+  "file": "camper-level-atoms3r-official-1.6.0.bin",
+  "signature": "304402201d2053316b77e788a249cf4d32910a820bf7339c72b556612a3804627a28ee2602204e7e8303f46cb8d8c069895bf2c52c1ce2db658137721ea6ba308000e6d35995"
+}
